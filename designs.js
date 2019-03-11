@@ -6,6 +6,8 @@ const size = document.querySelector('#sizePicker');
 const widthInput = document.querySelector('#inputWidth');
 // Select element with ID inputHeight
 const heightInput = document.querySelector('#inputHeight');
+// Select element with ID pixelCanvas
+const grid = document.querySelector('#pixelCanvas');
  //MakeGrid function declaration.
 function makeGrid() {
   let width = document.querySelector('#inputWidth').value;
