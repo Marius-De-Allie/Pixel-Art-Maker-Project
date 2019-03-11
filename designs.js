@@ -10,7 +10,7 @@ const heightInput = document.querySelector('#inputHeight');
 const grid = document.querySelector('#pixelCanvas');
  //MakeGrid function declaration.
 function makeGrid() {
-  let width = document.querySelector('#inputWidth').value;
+  let width = widthInput.value;
   let height = document.querySelector('#inputHeight').value;
   const grid = document.querySelector('#pixelCanvas');
   grid.innerHTML = "";
