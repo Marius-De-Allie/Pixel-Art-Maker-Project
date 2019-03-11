@@ -11,7 +11,7 @@ const grid = document.querySelector('#pixelCanvas');
  //MakeGrid function declaration.
 function makeGrid() {
   let width = widthInput.value;
-  let height = document.querySelector('#inputHeight').value;
+  let height = heightInput.value;
   const grid = document.querySelector('#pixelCanvas');
   grid.innerHTML = "";
   //outer for loop for creation of grid rows.
