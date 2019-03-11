@@ -4,6 +4,8 @@ const colourPicker = document.querySelector('#colorPicker');
 const size = document.querySelector('#sizePicker');
 // Select element with ID inputWidth
 const widthInput = document.querySelector('#inputWidth');
+// Select element with ID inputHeight
+const heightInput = document.querySelector('#inputHeight');
  //MakeGrid function declaration.
 function makeGrid() {
   let width = document.querySelector('#inputWidth').value;
